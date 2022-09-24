@@ -8,3 +8,4 @@ Things to work on:
 - creating combined model that takes in both k-mer and one-hot encoded sequences
 - reduce training memory requirements by building a TensorFlow input pipeline ([tf.data](https://www.tensorflow.org/guide/data))
 - create a [BERT-like](https://www.tensorflow.org/text/tutorials/classify_text_with_bert) multi-class & multi-label classifier
+- do something about sequence entries with partially missing labels and how to weight the model around this problem...
