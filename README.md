@@ -6,5 +6,5 @@ This repo builds further on the findings of [my bachelor's project](https://gith
 Things to work on:
 - additional data augmentation strategies (sequence cropping)
 - creating combined model that takes in both k-mer and one-hot encoded sequences
-- reduce training memory requirements by building a TensorFlow input pipeline (tf.data)
+- reduce training memory requirements by building a TensorFlow input pipeline ([tf.data](https://www.tensorflow.org/guide/data))
 - create a [BERT-like](https://www.tensorflow.org/text/tutorials/classify_text_with_bert) multi-class & multi-label classifier
